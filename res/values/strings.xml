@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">xDelta</string>
+    <string name="pocet_merani">Zadaj pocet merani</string>
+    <string name="potvrdit_pocet_merani">OK</string>
+    <string name="title_activity_zobraz_formular_merania">Zadanie hodnot</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="exponent">Exponent [10 na kolku]</string>
+    <string name="vypocitat">Vypocet!</string>
+    <string name="title_activity_ziskaj_zadane_merania">Vyhodnotenie merania</string>
+	<string name="tabulka_hodnota">Hodnota</string>
+	<string name="tabulka_deltax">&#916;x</string>
+	<string name="tabulka_deltax2">&#916;x&#178;</string>
+	<string name="tabulka_deltax_percent">&#916;x</string>
+	<string name="deltax_percent">[ % ]</string>
+	<string name="vyhodnotenie_priemer">Aritmetický priemer</string>
+	<string name="vyhodnotenie_delta_priemer">"Priemerná odchýlka\n(Aritmetický priemer |&#916;x|)"</string>
+	<string name="vyhodnotenie_kvad_chyba">"Stredná kvadratická chyba aritmetického priemeru"</string>
+	<string name="vyhodnotenie_pravdepodobna_chyba">"Stredná pravdepodobná chyba aritmetického priemeru"</string>
+	<string name="vyhodnotenie_maximalna_chyba">"Stredná maximálna chyba aritmetického priemeru"</string>
+	<string name="vyhodnotenie_vysledok">"Výsledná hodnota"</string>
+    
+</resources>

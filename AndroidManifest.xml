@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.NoTitle" >
+        <activity
+            android:name="com.example.xdelta.MainActivity"
+            android:label="@string/app_name"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.xdelta.ZobrazFormularMerania"
+            android:label="@string/title_activity_zobraz_formular_merania"
+            android:parentActivityName="com.example.xdelta.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.xdelta.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.xdelta.ZiskajZadaneMerania"
+            android:label="@string/title_activity_ziskaj_zadane_merania"
+            android:parentActivityName="com.example.xdelta.ZobrazFormularMerania" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.xdelta.ZiskajZadaneMerania" />
+        </activity>
+    </application>
+
+</manifest>
