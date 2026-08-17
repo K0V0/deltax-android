@@ -56,6 +56,7 @@ public class ZiskajZadaneMerania extends Activity {
 		{
 		 super.onCreate(savedInstanceState);
 		 setContentView(R.layout.vyhodnotene_merania);
+		 SystemoveListy.aplikujNa(this);
 		
 		 inicializovatHodnotyNaDefault();
 		 		 

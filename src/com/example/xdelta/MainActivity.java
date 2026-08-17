@@ -14,6 +14,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        SystemoveListy.aplikujNa(this);
     }
     
     public final static String EXTRA_MESSAGE = "com.example.xdelta.MESSAGE";

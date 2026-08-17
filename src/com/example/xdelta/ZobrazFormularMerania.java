@@ -19,6 +19,7 @@ public class ZobrazFormularMerania extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.zobraz_formular_merania);
+		SystemoveListy.aplikujNa(this);
 		// natahanie XML suboru so zacatym layoutom 
 		LinearLayout container = (LinearLayout) findViewById(R.id.merania_container);
 		// id layoutu 
