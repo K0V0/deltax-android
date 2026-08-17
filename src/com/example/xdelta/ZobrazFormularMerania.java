@@ -44,7 +44,8 @@ public class ZobrazFormularMerania extends Activity {
 							InputType.TYPE_CLASS_NUMBER |
 							InputType.TYPE_NUMBER_FLAG_DECIMAL |
 							InputType.TYPE_NUMBER_FLAG_SIGNED);
-					hodnota.setId(i);
+					// +1 lebo id 0 je pre Android neplatne resource ID
+					hodnota.setId(i+1);
 					LinearLayout.LayoutParams layoutParamsStlp = new LinearLayout.LayoutParams(
 						0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f);
 					if ((i%2==0)&&(i!=(pocetHodnot-1)))      { layoutParamsStlp.setMargins(0, 0, 8, 8); }
@@ -65,7 +66,7 @@ public class ZobrazFormularMerania extends Activity {
 	 	 boolean idemeDalej = true;
 	  	 for (int i=0; i<pocetHodnot; i++)	
 	 		{
-	 		 EditText temp = (EditText) this.findViewById(i);
+	 		 EditText temp = (EditText) this.findViewById(i+1);
 	 		 hodnoty[i] = temp.getText().toString();
 	 		 try { double num = Double.parseDouble(hodnoty[i]); } 
 	    	 catch (NumberFormatException e) { idemeDalej = false;  }

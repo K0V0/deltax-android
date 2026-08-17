@@ -80,7 +80,7 @@ public class ZiskajZadaneMerania extends Activity {
 		 parametreTabulky.setMargins(0, 2, 0, 2);			
 		 hodnota = getIntent().getStringArrayExtra("pole_hodnot");
 		 pocetHodnot = Integer.valueOf(getIntent().getStringExtra("pocet_hodnot"));
-		 SharedPreferences preferences = getSharedPreferences("preferences", MODE_WORLD_WRITEABLE);
+		 SharedPreferences preferences = getSharedPreferences("preferences", MODE_PRIVATE);
 		 exponent = Integer.valueOf(preferences.getString("exponent", null));
 		 
 		 mc = new MathContext(32);

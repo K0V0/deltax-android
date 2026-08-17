@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
     	 if (hrameDalej)
 	    	 	{
 		    	 intent.putExtra(EXTRA_MESSAGE, pocetMerani);
-		    	 SharedPreferences preferences = getSharedPreferences("preferences", MODE_WORLD_WRITEABLE);
+		    	 SharedPreferences preferences = getSharedPreferences("preferences", MODE_PRIVATE);
 		    	 preferences.edit().putString("exponent",exp).commit(); 
 		    	 startActivity(intent);
 	    	 	}
